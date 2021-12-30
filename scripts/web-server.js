@@ -5,6 +5,6 @@ var rootPath = path.normalize(__dirname + '/../');
 
 app.use(express.static(rootPath + '/app'));
 var PORT = 8000
-app.listen(PORT);
-
-console.log('Listening on PORT:', PORT);
+app.listen(PORT, () => {
+    console.log('Listening on Port: ', PORT);
+});
