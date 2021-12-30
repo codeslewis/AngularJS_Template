@@ -1,0 +1,19 @@
+{
+  "name": "templateApp",
+  "version": "1.0.0",
+  "description": "This template is a starter app for AngularJS development",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scripts/web-server"
+  },
+  "author": "Lewis Sneddon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.13.1",
+    "express": "4.13.0"
+  }
+}
