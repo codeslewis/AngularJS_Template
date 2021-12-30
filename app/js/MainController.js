@@ -4,7 +4,7 @@
     /**
      *  Here scope is listed as a string so that the minification
      *  process won't change the variable name.
-     *  This is required since it is injected by Angular
+     *  This is required (if using minifaction) since it is injected by Angular
      */
     angular.module('templateApp').controller('mainController', [
         '$scope',
